@@ -1,0 +1,500 @@
+   46  find / -name cntlm.conf -print 2>/dev/null
+   47  sudo apt-get remove cntlm
+   48  sudo apt-get install cntlm
+   49  sudo apt-get install cntlm
+   50  ls /etc/cntlm.conf
+   51  sudo apt-get purge cntlm
+   52  sudo apt-get install cntlm
+   53  find / -name cntlm.conf -print 2>/dev/null
+   54  cntlm -H
+   55  sudo vi /etc/cntlm.conf
+   56  cntlm -H
+   57  fg
+   58  sudo service cntlm restart
+   59  vi eduroam-linux-IoTT_Linux.sh 
+   60  sudo vi /etc/cntlm.conf
+   61  cntlm -M
+   62  cntlm -H -c /etc/cntlm.conf
+   63  cntlm -c /etc/cntlm.conf -H
+   64  cntlm -H
+   65  cntlm -c /etc/cntlm.conf -H
+   66  cntlm -c /etc/cntlm.conf 
+   67  cntlm -H -u jburns@stf
+   68  sudo vi /etc/cntlm.conf
+   69  sudo service cntlm restart
+   70  sudo vi /etc/cntlm.conf
+   71  sudo service cntlm restart
+   72  sudo service cntlm restart
+   73  sudo service cntlm restart
+   74  ls -ltr
+   75  rm *.cer
+   76  ls
+   77  chef
+   78  ls /opt
+   79  /opt/chef/bin/chef-solo
+   80  sudo shutdown -r now
+   81  ls -ltr
+   82  vi .profile 
+   83  history > history.txt
+   84  cd /
+   85  ls
+   86  ls -f
+   87  ls -F
+   88  cd
+   89  pwd
+   90  ls -L
+   91  ls -L
+   92  ls -l
+   93  mkdir test
+   94  ls -l
+   95  cd test
+   96  pwd
+   97  cd root
+   98  cd
+   99  cd
+  100  cd root bin
+  101  history
+  102  pwd
+  103  cd
+  104  cd
+  105  / -bin
+  106  ls
+  107  cd /
+  108  cd bin
+  109  pwd
+  110  ls -l
+  111  cd
+  112  pwd
+  113  history
+  114  history > history1.txt
+  115  cd /
+  116  cd bin
+  117  pwd
+  118  ls - l > ls.txt
+  119  ls  > ls.txt
+  120  ls -l >  ls.txt
+  121  ls -l > mint/home/ ls.txt
+  122  cd / bin
+  123  ls -l > /hiome/mint ls.txt
+  124  ls -l > /home/mint ls.txt
+  125  ls -l > /home/mintout.txt
+  126  cd
+  127  pwd
+  128  ls -l /bin > out.txt
+  129  pwd
+  130  dir
+  131  ls -l
+  132  diff out.txt history.txt
+  133  history > history2,txt
+  134  hnkbnki
+  135  uname -a
+  136  uname -r
+  137  cal
+  138  date
+  139  dmseg
+  140  id
+  141  last
+  142  gedit
+  143  gedit
+  144  ch mod --help
+  145  chmod --help
+  146  help Permission denied
+  147  ls
+  148  ls --
+  149  ls -l
+  150  gedit x
+  151  ls -l
+  152  touch x/bin
+  153  ls -l
+  154  ls -l/
+  155  ls -l/bin
+  156  ls -l /
+  157  ls -l /bin
+  158  ls -l /home/mint
+  159  ls -l /home/mint/.gnome2/gedit/gedit-2
+  160  ls -l /home/mint/.gnome2/gedit/gedit-2.FG3OMX
+  161  ls -l /home/mint/.gnome2/gedit/
+  162  sudo chown -r mint /home/mint/.gnome2/gedit
+  163  sudo chown -R  mint /home/mint/.gnome2/gedit
+  164  gedit x
+  165  sudo chgrp -R  mint /home/mint/.gnome2/gedit
+  166  ls -l /home/mint/.gnome2/gedit/
+  167  mkdir Demo
+  168  cd Demo
+  169  mkdir Week3
+  170  cd Week3
+  171  mkdir script.sh
+  172  ls - l
+  173  cd..
+  174  cd
+  175  ls
+  176  export Git_SSL_NO_VERIFY=1
+  177  export http_proxy=http://localhost:3128
+  178  cd Demo
+  179  cd Week3
+  180  touch script.sh
+  181  cd ..
+  182  git add -A
+  183  sudo apt-get install git
+  184  git
+  185  history
+  186  export http_proxy=http://localhost:3128
+  187  sudo -E apt-get install git
+  188  git add -A
+  189  cd
+  190  git config --global user.email "<garycurran@live.com>"
+  191  git config --global user.email "garycurran@live.com"
+  192  git config --global user.name "GaryCurran"
+  193  git clone https://github.com/GaryCurran/Demo.git
+  194  ls
+  195  rm -R Demo
+  196  ls
+  197  export GIT_SSL_NO_VERIFY=1
+  198  export http_proxy=http://localhost:3128
+  199  sudo -E apt-get install git
+  200  git config --global user.email "garycurran@live.com"
+  201  git config --global user.name "GaryCurran"
+  202  git clone https://github.com/GaryCurran/Demo.git
+  203  mkdir Demo
+  204  ls
+  205  cd Demo
+  206  mkdir Week3
+  207  cd Week3
+  208  touch script.sh
+  209  cd ..
+  210  git add -A
+  211  git commit -a
+  212  git push origin master
+  213  history > PushIntoGit.txt
+  214  ls
+  215  git add -A
+  216  git commit -a
+  217  git push origin master
+  218  ls
+  219  cd week3
+  220  cd Week3
+  221  gedit script 
+  222  gedit script.sh
+  223  git commit script.sh
+  224  git -A
+  225  git add -A
+  226  git commit -a
+  227  git push origin master
+  228  ./script.sh
+  229  gedit script.sh
+  230  git add -A
+  231  git commit -a
+  232  git push origin master
+  233  chmod +x script.sh
+  234  ./script.sh
+  235  gedit script.sh
+  236  git add -A
+  237  git commit -a
+  238  git push origin master
+  239  ./script.sh
+  240  history > history.txt
+  241  git add -A
+  242  git commit -a
+  243  git push origin master
+  244  ls
+  245  ls -l
+  246  export GIT_SSL_NO_VERIFY=1
+  247  export http_proxy=http://localhost:3128
+  248  cd EAA.lab.1/
+  249  ls -l
+  250  cd Demo
+  251  ls -l
+  252  mkdir Week4
+  253  ls -l
+  254  touch data.sh
+  255  ls -l
+  256  cd Week4
+  257  ls -l
+  258  gedit data.sh
+  259  ./data.sh
+  260  chmod +x data.sh
+  261  ./data.sh
+  262  #
+  263  gedit data.sh
+  264  ./data.sh
+  265  gedit data.sh
+  266  ./data.sh
+  267  ./data.sh
+  268  gedit data.sh
+  269  ./data.sh
+  270  ls -l
+  271  ./data.sh
+  272  cd..
+  273  cd ..
+  274  cd Week4
+  275  ls -l
+  276  git add -A
+  277  cd EAA.lab.1/
+  278  cd ..
+  279  git config --global user.email "<your email>"
+  280  git config --global user.name "<your username>"
+  281  ls -l
+  282  cd Week4
+  283  ls
+  284  git add -A
+  285  export GIT_SSL_NO_VERIFY=1
+  286  export http_proxy=http://localhost:3128
+  287  sudo -E apt-get install git
+  288  git config --global user.email "<your email>"
+  289  git config --global user.email "<your email>"
+  290  cd Demo
+  291  git add -A
+  292  git commit -a
+  293  git push origin master
+  294  git push origin master
+  295  cd Week4
+  296  gedit script.sh
+  297  ./script.sh
+  298  chmod +x script.sh#
+  299  chmod +x script.sh
+  300  ./script.sh
+  301  gedit script.sh
+  302  ./script.sh
+  303  gedit script.sh
+  304  ./script.sh
+  305  gedit script.sh
+  306  ./script.sh
+  307  gedit script.sh
+  308  ./script.sh
+  309  gedit script.sh
+  310  ./script.sh
+  311  gedit script.sh
+  312  ./script.sh
+  313  ./script.sh
+  314  ./script.sh
+  315  gedit script.sh
+  316  ./script.sh
+  317  gedit script.sh
+  318  ./script.sh
+  319  gedit script.sh
+  320  ./script.sh
+  321  gedit script.sh
+  322  ./script.sh
+  323  ./script.sh
+  324  gedit script.sh
+  325  ./script.sh
+  326  gedit script.sh
+  327  ./script.sh
+  328  gedit script.sh
+  329  ./script.sh
+  330  gedit script.sh
+  331  ./script.sh
+  332  gedit script.sh
+  333  gedit script.sh
+  334  ./script.sh
+  335  gedit script.sh
+  336  ./script.sh
+  337  gedit script.sh
+  338  cd
+  339  cd Demo
+  340  cd Week4
+  341  history > week4_History.txt
+  342  ls -l
+  343  gedit week4_History.txt
+  344  cd..
+  345  cd ..
+  346  git add -A
+  347  git commit -a
+  348  git push origin master 
+  349  ls
+  350   cd demo
+  351  cd Demo
+  352  mkdir Week6
+  353  cd Week6
+  354  gedit diary.sh
+  355  ./diary.sh
+  356  chmod +x diary.sh
+  357  ./diary.sh
+  358  ./diary.sh
+  359  ./diary.sh
+  360  gedit diary.sh
+  361  ls
+  362  export GIT_SSL_NO_VERIFY=1
+  363  export http_proxy=http://localhost:3128
+  364  sudo -E apt-get install git
+  365  git config --global user.email "<your email>"
+  366  git config --global user.name "<your username>"garycurran@li
+  367   git config --global user.email "garycurran@live.com"
+  368   git config --global user.email "<garycurran@live.com>"
+  369  git config --global user.name "<GaryCurran>"
+  370   git config --global user.email "garycurran@live.com"
+  371  cls
+  372  export GIT_SSL_NO_VERIFY=1
+  373  export http_proxy=http://localhost:3128
+  374  export GIT_SSL_NO_VERIFY=1
+  375  export http_proxy=http://localhost:3128
+  376  sudo -E apt-get install git
+  377  cd demo
+  378  ls
+  379  cd Demo
+  380  mkdir Week 9
+  381  cd Week (
+  382  cd Week 9
+  383  cd
+  384  demo
+  385  gedit
+  386  ls
+  387  cd Demo
+  388  ls
+  389  cd Week_9
+  390  ls
+  391  gedit add.tdi
+  392  ls
+  393  cd
+  394  cd
+  395  export GIT_SSL_NO_VERIFY=1
+  396  export http_proxy=http://localhost:3128
+  397  sudo -E apt-get install git
+  398  git clone https://github.com/GaryCurran/Demo.git
+  399  cd Demo
+  400  mkdir Week10
+  401  cd Week10
+  402  touch hello.sh
+  403  gedit hello.sh
+  404  hello.sh
+  405  /hello.sh
+  406  ls
+  407  /hello
+  408  bash script.sh
+  409  ls
+  410  bash hello.sh
+  411  cd
+  412  git add -A
+  413  cd..
+  414  cd Week10
+  415  cd Demo
+  416  ls
+  417  cd Week10
+  418  ls
+  419  git add -A
+  420  cd
+  421* 
+  422  cd Demo
+  423  cd Week10
+  424  cd
+  425  cd .chef
+  426  ls
+  427  gedit knife.rb
+  428  pwd
+  429  fg
+  430  cd
+  431  cd
+  432  cd Demo
+  433  cd week10
+  434  cd Week10
+  435  sudo knife create cook book test
+  436  ls
+  437  knife cookbook create mpstat
+  438  ls
+  439  ls cookbooks/mpstat/
+  440  knife cookbook create mpstat
+  441  ls
+  442  knife cookbook create mpstat
+  443  ls
+  444  vi ~/.chef/knife.rb 
+  445  cd /home/mint/Demo/Week10
+  446  ls
+  447  knife cookbook create mpstat
+  448  ls
+  449  vi ~/.chef/knife.rb 
+  450  knife cookbook create mpstat
+  451  ls
+  452  cd 
+  453  cd -
+  454  ls
+  455  cd mpstat/
+  456  ls
+  457  cd ..
+  458  rm -rf mpstat*
+  459  knife cookbook create mpstat
+  460  ls
+  461  ls mpstat/
+  462  cd ..
+  463  knife cookbook create mpstat
+  464  ls
+  465  cd Week10
+  466  ls
+  467  ls
+  468  rm -rf mpstat*
+  469  vi ~/.chef/knife.rb 
+  470  knife cookbook create mpstat
+  471  ls
+  472  cd cookbooks
+  473  cd mpstat
+  474  ls
+  475  cd recipes
+  476  geit default.rb
+  477  gedit default.rb
+  478  pwd
+  479  gedit default.rb
+  480  gedit default.rb
+  481  ls
+  482  bash default.sh
+  483  bash default.rb
+  484  gedit default.rb
+  485  cd ../../
+  486  ls
+  487  cd recipies
+  488  cd recipes
+  489  ls
+  490  cd mpstat
+  491  ls
+  492  cd recipes
+  493  gedit node.json
+  494  gedit solo.rb
+  495  ls
+  496  mv node.json /home/Demo/Week10
+  497  mv node.json /home/Demo/Week1/cookbooks0
+  498  mv node.json /Demo/Week1/cookbooks0
+  499  mv node.json /Demo/Week1/cookbooks
+  500  mv node.json /cookbooks
+  501  chmod  cookbooks
+  502  +x 
+  503  mv /cookbooks/~/Demo/Week10/cookbooks/cookbooks/~/Demo/Week10/cookbooks
+  504  mv /Demo/Week10/cookbooks/mpstat/recipes/node.json /Demo/Week10/cookbooks/node.json
+  505  ls
+  506  gedit
+  507  gedit node.json
+  508  cd
+  509  cd demo]
+  510  cd Demo
+  511  cd Week10
+  512  ls
+  513  cd cookbooks
+  514  gedit node.json
+  515  ls
+  516  cd recipes
+  517  cd recipes
+  518  ls
+  519  cd mpstat
+  520  ls
+  521  cd recipes
+  522  ls
+  523  gedit solo.rb
+  524  cd..
+  525  cd -
+  526  cd -
+  527  cd ..
+  528  cd ..
+  529  gedit solo.rb
+  530  ls
+  531  sudo -E chef-solo -c ./solo.rb
+  532  sudo -E chef-solo -c ./solo.rb
+  533  gedit solo.rb
+  534  sudo -E chef-solo -c ./solo.rb
+  535  gedit node.json
+  536  sudo -E chef-solo -c ./solo.rb
+  537  vi mpstat/recipes/default.rb 
+  538  sudo -E chef-solo -c ./solo.rb
+  539  vi mpstat/recipes/default.rb 
+  540  sudo -E chef-solo -c ./solo.rb
+  541  mpstat
+  542  mpstat 1
+  543  mpstat 1 5
+  544  iostat
+  545  history >Week10History.txt

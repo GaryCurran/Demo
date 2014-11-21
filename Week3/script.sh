@@ -8,4 +8,4 @@
 
 cpucount=$(grep processor /proc/cpuinfo | wc -l)
 
-printf "The number of CPU's is : %s\n" $cpucount
+printf "The number of CPU's is : %s\n" $cpucount >> log.txt
